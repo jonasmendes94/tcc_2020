@@ -1,0 +1,26 @@
+table-name           'Boundary Section : 1'
+contents             'Uniform   '
+location             'SUL                 '
+time-function        'non-equidistant'
+reference-time       20191001
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Salinity             end A uniform'       unit '[ppt]'
+parameter            'Salinity             end B uniform'       unit '[ppt]'
+records-in-table     2
+ 2.0100000e+002  3.6000000e+001  3.6000000e+001
+ 1.2677100e+005  3.6000000e+001  3.6000000e+001
+table-name           'Boundary Section : 2'
+contents             'Uniform   '
+location             'LESTE               '
+time-function        'non-equidistant'
+reference-time       20191001
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Salinity             end A uniform'       unit '[ppt]'
+parameter            'Salinity             end B uniform'       unit '[ppt]'
+records-in-table     2
+ 2.0100000e+002  3.6000000e+001  3.6000000e+001
+ 1.2677100e+005  3.6000000e+001  3.6000000e+001

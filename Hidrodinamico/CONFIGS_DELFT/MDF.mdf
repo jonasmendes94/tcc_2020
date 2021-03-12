@@ -1,0 +1,121 @@
+Ident  = #Delft3D-FLOW 3.56.29165#
+Commnt =                  
+Filcco = #Configs\GRID.grd#
+Filgrd = #Configs\GRID_ENCLOSURE.enc#
+MNKmax = 88 132 10
+Thick  =  3.1250000e+000
+          3.1250000e+000
+          6.2500000e+000
+          6.2500000e+000
+          3.1250000e+001
+          3.1250000e+001
+          6.2500000e+000
+          6.2500000e+000
+          3.1250000e+000
+          3.1250000e+000
+Commnt =                  
+Fildep = #Configs\DEPTH.dep#
+Commnt =                  
+Commnt =                 no. dry points: 572
+Fildry = #Configs\DRY_POINTS.dry#
+Commnt =                 no. thin dams: 0
+Commnt =                  
+Itdate = #2019-10-01#
+Tunit  = #M#
+Tstart =  2.3100000e+002
+Tstop  =  1.2672000e+005
+Dt     = 1
+Tzone  = 3
+Commnt =                  
+Sub1   = #S W #
+Sub2   = #   #
+Commnt =                  
+Wnsvwp = #N#
+Filwnd = #Configs\WINDS.wnd#
+Wndint = #Y#
+Commnt =                  
+Commnt =                 initial conditions from restart file
+Restid = #PRESAL.20191001.005100#
+Commnt =                  
+Commnt =                 no. open boundaries: 2
+Filbnd = #Configs\BOUNDARIES.bnd#
+Filana = #Configs\ASTRO.bca#
+FilbcC = #Configs\TRANSPORT.bcc#
+Rettis =  0.0000000e+000
+          0.0000000e+000
+Rettib =  0.0000000e+000
+          0.0000000e+000
+Commnt =                  
+Ag     =  9.8100000e+000
+Rhow   =  1.0000000e+003
+Tempw  =  2.8000000e+001
+Salw   =  3.1000000e+001
+Wstres =  6.3000000e-004  0.0000000e+000  2.400000e-003  2.6000000e+000  2.4000000e-003  3.1000000e+000
+Rhoa   =  1.1500000e+000
+Betac  =  5.0000000e-001
+Equili = #N#
+Tkemod = #K-epsilon   #
+Ktemp  = 0
+Fclou  =  0.0000000e+000
+Sarea  =  0.0000000e+000
+Temint = #Y#
+Tidfor = #M2 S2 N2 K2 #
+         #K1 O1 P1 Q1 #
+         #MF MM SSA---#
+Commnt =                  
+Roumet = #C#
+Ccofu  =  6.5000000e+001
+Ccofv  =  6.5000000e+001
+Xlo    =  0.0000000e+000
+Vicouv =  1.0000000e+000
+Dicouv =  1.0000000e+001
+Htur2d = #N#
+Vicoww =  0.0000000e+000
+Dicoww =  0.0000000e+000
+Irov   = 0
+Commnt =                  
+Iter   =      2
+Dryflp = #YES#
+Dpsopt = #MAX#
+Dpuopt = #MEAN#
+Dryflc =  1.0000000e-001
+Dco    = -9.9900000e+002
+Tlfsmo =  6.0000000e+001
+ThetQH =  0.0000000e+000
+Forfuv = #Y#
+Forfww = #Y#
+Sigcor = #N#
+Trasol = #Cyclic-method#
+Momsol = #Cyclic#
+Commnt =                  
+Commnt =                 no. discharges: 30
+Filsrc = #Configs\SOURCES.src#
+Fildis = #Configs\DISCHARGE.dis#
+Commnt =                 no. observation points: 2
+Filsta = #Configs\OBSERVATIONS.obs#
+Commnt =                 no. drogues: 0
+Commnt =                  
+Commnt =                  
+Commnt =                 no. cross sections: 0
+Commnt =                  
+SMhydr = #YYYYY#     
+SMderv = #YYYYYY#    
+SMproc = #YYYYYYYYYY#
+PMhydr = #YYYYYY#    
+PMderv = #YYY#       
+PMproc = #YYYYYYYYYY#
+SHhydr = #YYYY#      
+SHderv = #YYYYY#     
+SHproc = #YYYYYYYYYY#
+SHflux = #YYYY#      
+PHhydr = #YYYYYY#    
+PHderv = #YYY#       
+PHproc = #YYYYYYYYYY#
+PHflux = #YYYY#      
+Flmap  =  2.4000000e+002 180  1.2672000e+005
+Flhis  =  2.3100000e+002 180  1.2672000e+005
+Flpp   =  5.8464000e+005 0  5.8464000e+005
+Flrst  = 1440
+Commnt =                  
+Online = #N#
+Commnt =                  
