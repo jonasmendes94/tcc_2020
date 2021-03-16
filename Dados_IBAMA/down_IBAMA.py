@@ -5,15 +5,6 @@ Created on Mon Oct 26 19:48:30 2020
 @author: Jonas
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 25 20:50:56 2020
-
-        !!!!!!!! Script loco para baixar dados do IBGE sobre localidades oleadas em 2019, convertendo eles em csv e exportando csv organizado !!!!!!!!
-
-@author: Jonas
-"""
-
 import os
 import csv
 import requests
